@@ -20,5 +20,6 @@
   "homepage": "https://github.com/dcartwright07/my-typescript-package#readme",
   "devDependencies": {
     "typescript": "^4.7.4"
-  }
+  },
+  "files": ["lib/**/*"]
 }
