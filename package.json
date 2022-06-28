@@ -1,18 +1,22 @@
 {
   "name": "my-typescript-package",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A nice greeter",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dcartwright07/my-typescript-package.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Hello", "Greeter"],
+  "author": "Dominic Cartwright",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dcartwright07/my-typescript-package/issues"
