@@ -1,6 +1,6 @@
 {
   "name": "dcartwright07-typescript-package",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A nice greeter",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -15,7 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/dcartwright07/my-typescript-package.git"
   },
-  "keywords": ["Hello", "Greeter"],
+  "keywords": [
+    "Hello",
+    "Greeter"
+  ],
   "author": "Dominic Cartwright",
   "license": "ISC",
   "bugs": {
@@ -28,5 +31,7 @@
     "ts-jest": "^28.0.5",
     "typescript": "^4.7.4"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ]
 }
